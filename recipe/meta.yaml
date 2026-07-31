@@ -1,5 +1,5 @@
 {% set name = "jekyll-optional-front-matter" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.3" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: d0c916e8eaba28d22c9f17517f2257f78afd8008e58f33a646e32d8bf7333c83
+  sha256: fc96976ffaa5515b3ad7d553199011aa98782c13694dfbd1a6278ede88212a6e
 
 build:
   noarch: generic
